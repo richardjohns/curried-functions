@@ -20,7 +20,6 @@ var curry = {
   },
 
   greetDeeplyCurried: function (greeting) {
-    // var greeting = this.init.arguments[arguments.length - 1]
     return function (separator) {
       return function (emphasis) {
         return function (name) {
