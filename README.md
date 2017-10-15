@@ -5,6 +5,7 @@ Quick example of a library object for curried functions
   // 1. 'Heidi' is passed in as name. 
   // 2. greetDeeplyCurried is called and name passed on via 'this'.
   // Note that we can't use fat arrow functions here as 'this' points to a different target.
+  
   awkwardCurry: function (name) {
     this.greetDeeplyCurried('This')('...')('?')(name)
   },
