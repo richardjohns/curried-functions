@@ -1,5 +1,5 @@
 # curried-functions
-Quick example of a library object for curried functions
+Quick example of a library object for curried functions for my week 5 lightning talk...
 
 
 
