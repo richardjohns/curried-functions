@@ -1,6 +1,8 @@
 # curried-functions
 Quick example of a library object for curried functions
 
+
+
 ```var curry = {
   // 1. 'Heidi' is passed in as name. 
   // 2. greetDeeplyCurried is called and name passed on via 'this'.
