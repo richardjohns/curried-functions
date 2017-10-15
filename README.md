@@ -1,7 +1,7 @@
 # curried-functions
 Quick example of a library object for curried functions
 
-var curry = {
+```var curry = {
   // 1. 'Heidi' is passed in as name. 
   // 2. greetDeeplyCurried is called and name passed on via 'this'.
   // Note that we can't use fat arrow functions here as 'this' points to a different target.
@@ -31,5 +31,5 @@ var curry = {
 // Pass in name.
 curry.helloCurry('Vindaloo');
 curry.awkwardCurry('Vindaloo');
-curry.harrisonCurry('Vindaloo');
+curry.harrisonCurry('Vindaloo');```
 
